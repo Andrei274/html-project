@@ -42,7 +42,7 @@ background: linear-gradient(135deg, #0f9ba8, #1b455c);
 
 
 @media (min-width: 319px) and (max-width: 480px) {
-    /* Setează fontul pentru această gamă de lățimi */
+    
     body {
         font-size: 14px;
     }
@@ -84,7 +84,7 @@ background: linear-gradient(135deg, #0f9ba8, #1b455c);
     }
 
     .profil {
-        height: 150px;
+        height: 70px;
     }
 
     /* Adaptează butoanele */
@@ -101,6 +101,136 @@ background: linear-gradient(135deg, #0f9ba8, #1b455c);
     footer .nav-link {
         font-size: 0.9rem;
     }
+    #features h3 {
+        font-size: 1.2rem !important; /* echivalent cu fs-6 */
+      }
+    
+      #features p {
+        font-size: 0.8rem !important;
+      }
+    
+      #features svg {
+        height: 20px !important;
+      }
+    
+      #features .icon-square {
+        margin-right: 0.5rem !important; /* echivalent cu me-2 */
+      }
+
+     
+        #contact-me h1 {
+          font-size: 1.7rem !important; /* echivalent cu fs-3 sau fs-4 */
+        }
+      
+        #contact-me h2 {
+          font-size: 1.2rem !important;
+        }
+      
+        #contact-me p {
+          font-size: 0.8rem !important;
+        }
+      
+        #contact-me .btn {
+          font-size: 0.9rem !important;
+          padding: 0.5rem 1.25rem !important;
+        }
+      
+        #contact-me .px-4 {
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+        }
+      
+        #contact-me .py-5,
+        #contact-me .my-5 {
+          padding-top: 2rem !important;
+          padding-bottom: 2rem !important;
+          margin-top: 2rem !important;
+          margin-bottom: 2rem !important;
+        }
+      
+       
+
+}
+@media (min-width: 480px) and (max-width: 1000px) {
+
+   
+    .top-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .top-container .row {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #title .col-lg-6 {
+        order: 2;
+        flex: 1;
+    }
+
+    #title .col-lg-6 img {
+        order: 1; /* Imaginea va fi pe dreapta */
+        max-width: 100%;
+        height: auto;
+    }
+    .profil {
+        height: 80px;
+    }
+    #features h3 {
+        font-size: 1.5rem !important; /* echivalent cu fs-6 */
+      }
+    
+      #features p {
+        font-size: 1rem !important;
+      }
+    
+      #features svg {
+        height: 30px !important;
+      }
+    
+      #features .icon-square {
+        margin-right: 0.5rem !important; /* echivalent cu me-2 */
+      }
+
+      
+        #contact-me h1 {
+          font-size: 2rem !important; /* echivalent cu fs-3 sau fs-4 */
+        }
+      
+        #contact-me h2 {
+          font-size: 1.5rem !important;
+        }
+      
+        #contact-me p {
+          font-size: 1rem !important;
+        }
+      
+        #contact-me .btn {
+          font-size: 1rem !important;
+          padding: 0.5rem 1.25rem !important;
+        }
+      
+        #contact-me .px-4 {
+          padding-left: 1rem !important;
+          padding-right: 1rem !important;
+        }
+      
+        #contact-me .py-5,
+        #contact-me .my-5 {
+          padding-top: 2rem !important;
+          padding-bottom: 2rem !important;
+          margin-top: 2rem !important;
+          margin-bottom: 2rem !important;
+        }
+      
+      
+
+
 }
 
 
